@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my flix case study</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div class="case-study_content">
+    <h1 class="case-study_title">Case study - <span>myFlix web application</span></h1>
+
+    <h3 class="headers">Overview</h3>
+    <p>myFlix is a movie library, full-stack web application built with the MERN stack. The
+      app allows users once registered and logged in to view the list of movies present in
+      the database, create a list of their favourite movies and view information about the
+      different directors and genres. Finally users can also decide to deregister from the
+      application.</p>
+    <img src="./img/myFlix-React-Screenshot.png" alt="MyFlix-App screenshot" width="80%" height="40%">
+    <h3 class="headers">Purpose and Context</h3>
+    <p>The project was part of my careerfoundry web development bootcamp. The aim was to
+      demonstrate my ability to create a full stack application using JavaScript
+      programming language. Also, myFlix application was the perfect project for myself
+      because of my passion for movies. Therefore I was very enthusiastic to develop the
+      app and showcase it to fellow developers and film enthusiasts.</p>
+    <h3 class="headers">Objective</h3>
+    <p>The objective of the project was to build a full-stack application from scratch using
+      the
+      MERN stack to showcase my skills to potential employers. The project started by
+      building
+      the database and back-end of the application with the use of MongoDB, Node.js and
+      Express. The client-side on the other hand was developed using React.js. </p>
+
+    <h2 class="approach-header">Approach</h2>
+    <h3 class="headers">Back-end</h3>
+    <p>First, I used Node.js and Express to create a RESTful API that would interact with
+      the
+      movies database, which was created using a non-relational database (MongoDB). The
+      database contains two collections: movies, which contains all movies and their
+      relative
+      information (synopsis, genre and director); users, which contains the list of all
+      registered users and their personal information.</p>
+    <p>The API can be accessed via HTTP methods (GET, PUT, POST, DELETE). In order to
+      interact
+      with the database and be able to store and retrieve data, I made use of CRUD methods
+      (mainly using Create, Read, Update, and Delete). Finally the data returned from the
+      database is in a JSON format.</p>
+
+    <div class="postman">
+      <img src="./img/Postman-Screenshot.png" class="postman__portrait" alt="postman screenshot" width="60%"
+        height="60%">
+      <p>To test the application in the development phase, I used Postman. For authentication
+        and
+        authorization, I used HTTP and JWT tokens. The API was then hosted on Heroku.
+      </p>
+    </div>
+
+    <h3 class="headers">Front-end</h3>
+
+    <p>Regarding the front-end of the application, it is a single page application built
+      with React.js. The application provides the user with several views that include a
+      login view, a registration view, a main view (displays all movies in the database),
+      a movie view (displays information about a single movie), a genre view (displays
+      information about a specific genre), a director view (displays information about a
+      specific director) and a profile view (displays personal information about the
+      logged in user, that can also be updated).</p>
+    <img src="./img/Profile-Screenshot.png" class="profile_portrait" alt="MyFlix-App screenshot" width="60%"
+      height="30%">
+    <h3 class="headers">Challenges</h3>
+    <p>This was definitely one of my favourite projects and most challenging too. Before
+      working on this project, I had not worked on projects involving building the
+      back-end of an application, so it was very rewarding building my own API and
+      database at the same time. Also I got pretty good at using the terminal.</p>
+    <p>In regards to the front-end, it was my first time working with React and to be honest
+      it took me a while to comprehend how the state and props of a component function and
+      how to manipulate them, but thankfully after getting some practice and watching some
+      useful tutorials online, I managed to complete the app successfully.</p>
+    <h3 class="headers">Duration</h3>
+    <p>It took a little over two month to complete the entire application.</p>
+    <h3 class="headers">Credits</h3>
+    <p>Role: Lead Developer</p>
+    <p>Tutor: Adewunmi Bamishigbin</p>
+    <p>Mentor: Akunna Nwosu</p>
+    <button class="main-btn_submit"><a href="index.html">Go back to the main page</a></button>
+  </div>
+
+
+</body>
+
+</html>

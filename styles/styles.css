@@ -629,6 +629,53 @@ section {
   opacity: 0.8;
 }
 
+.case-study_content {
+  background-color: var(--color-primary);
+  margin: 2%;
+  padding: 0.5rem 10rem;
+}
+.case-study_content .case-study_title {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+.case-study_content .headers {
+  margin: 15px;
+  margin-left: 0;
+  font-weight: 1200;
+  font-size: 2rem;
+}
+.case-study_content p {
+  padding-bottom: 20px;
+}
+.case-study_content .approach-header {
+  font-weight: 1200;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--color-secondary);
+}
+.case-study_content .postman {
+  display: inline-block;
+}
+.case-study_content .postman .postman__portrait {
+  float: left;
+  margin-right: 40px;
+}
+.case-study_content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.case-study_content span {
+  color: var(--color-secondary);
+}
+.case-study_content button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about-container .left-about p {
   padding-left: 0;
 }

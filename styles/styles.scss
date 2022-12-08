@@ -602,7 +602,6 @@ section {
 }
 
 .project-list__item {
-  // background-color: rgba(255, 255, 255, 0.02);
   background-color: var(--portfolio-item-background-1);
   /* for grid fallback */
   width: auto;
@@ -615,7 +614,6 @@ section {
 }
 
 .project-list__item:hover {
-  // background-color: rgba(255, 255, 255, 0.1);
   background-color: var(--portfolio-item-background-2);
 }
 
@@ -686,7 +684,6 @@ section {
 }
 
 .thankyou-wrapper a:hover {
-  // font: 26px Arial, Helvetica, sans-serif;
   text-align: center;
   color: #ffffff;
   display: block;
@@ -698,6 +695,67 @@ section {
   // border-bottom: 5px solid #F96700;
   opacity: 0.8;
 }
+
+
+//////////////////////////// myFlix Modal ///////////////////////////////////////
+
+.case-study_content {
+  background-color: var(--color-primary);
+  margin: 2%;
+  padding: 0.5rem 10rem;
+
+  .case-study_title {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .headers {
+    margin: 15px;
+    margin-left: 0;
+    font-weight: 1200;
+    font-size: 2rem;
+  }
+
+  p {
+    padding-bottom: 20px;
+  }
+
+  .approach-header {
+    font-weight: 1200;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--color-secondary);
+  }
+
+  .postman {
+    display: inline-block;
+
+    .postman__portrait {
+      float: left;
+      margin-right: 40px;
+    }
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  span {
+    color: var(--color-secondary);
+  }
+
+  button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
 
 
 @import './media';
